@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Define o idioma como inglês -->
+
+<head>
+  <!-- Configurações básicas do documento -->
+  <meta charset="utf-8"> <!-- Define a codificação de caracteres -->
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"> <!-- Define o layout responsivo -->
+  <title>Página Inicial - Modelo Bootstrap Medilab</title>
+  <meta name="description" content=""> <!-- Descrição da página -->
+  <meta name="keywords" content=""> <!-- Palavras-chave para SEO -->
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon"> <!-- Favicon do site -->
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> <!-- Ícone para dispositivos Apple -->
+
+  <!-- Fontes do Google -->
+  <link href="https://fonts.googleapis.com" rel="preconnect"> <!-- Pré-conexão para melhorar desempenho -->
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+
+  <!-- Arquivos de CSS de terceiros -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> <!-- Estilos do Bootstrap -->
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet"> <!-- Ícones do Bootstrap -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet"> <!-- Animações de scroll -->
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet"> <!-- Ícones do FontAwesome -->
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"> <!-- Estilos do Lightbox -->
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"> <!-- Estilos do Swiper -->
+
+  <!-- Arquivo CSS principal -->
+  <link href="assets/css/main.css" rel="stylesheet"> <!-- Estilo customizado do site -->
+
+  <!-- Informações do template -->
+  <!-- Nome do Template: Medilab -->
+  <!-- URL do Template: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/ -->
+  <!-- Atualizado: 07/08/2024 com Bootstrap v5.3.3 -->
+  <!-- Autor: BootstrapMade.com -->
+  <!-- Licença: https://bootstrapmade.com/license/ -->
+</head>
+
+<body class="starter-page-page"> <!-- Define a classe principal para estilização -->
+
+  <!-- Cabeçalho -->
+  <header id="header" class="header sticky-top">
+    <!-- Barra superior com informações de contato e redes sociais -->
+    <div class="topbar d-flex align-items-center">
+      <div class="container d-flex justify-content-center justify-content-md-between">
+        <!-- Informações de contato -->
+        <div class="contact-info d-flex align-items-center">
+          <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">contact@example.com</a></i>
+          <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 5589 55488 55</span></i>
+        </div>
+        <!-- Links para redes sociais -->
+        <div class="social-links d-none d-md-flex align-items-center">
+          <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div><!-- Fim da Barra Superior -->
+
+    <!-- Logotipo e Navegação -->
+    <div class="branding d-flex align-items-center">
+      <div class="container position-relative d-flex align-items-center justify-content-between">
+        <!-- Logotipo -->
+        <a href="index.html" class="logo d-flex align-items-center me-auto">
+          <h1 class="sitename">Medilab</h1>
+        </a>
+        <!-- Menu de navegação -->
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="#hero">Home<br></a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#services">Serviços</a></li>
+            <li><a href="#departments">Departamentos</a></li>
+            <li><a href="#doctors">Médicos</a></li>
+            <li class="dropdown"><a href="#"><span>Mais opções</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <!-- Menu Dropdown -->
+              <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li class="dropdown"><a href="#"><span>Submenu</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                  <ul>
+                    <li><a href="#">Submenu 1</a></li>
+                    <li><a href="#">Submenu 2</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Opção 2</a></li>
+              </ul>
+            </li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+          <!-- Ícone de navegação móvel -->
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+        <!-- Botão de ação -->
+        <a class="cta-btn d-none d-sm-block" href="#appointment">Agendar Consulta</a>
+      </div>
+    </div>
+  </header><!-- Fim do Cabeçalho -->
+
+  <!-- Conteúdo Principal -->
+  <main class="main">
+    <!-- Título da Página -->
+    <div class="page-title" data-aos="fade">
+      <div class="heading">
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8">
+              <h1>Página Inicial</h1>
+              <p class="mb-0">Texto de exemplo sobre a página inicial.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Navegação breadcrumb -->
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Página Inicial</li>
+          </ol>
+        </div>
+      </nav>
+    </div><!-- Fim do Título da Página -->
+
+    <!-- Seção Inicial -->
+    <section id="starter-section" class="starter-section section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Seção Inicial</h2>
+        <p>Texto explicativo da seção.</p>
+      </div>
+      <div class="container" data-aos="fade-up">
+        <p>Use esta página como ponto de partida para suas páginas personalizadas.</p>
+      </div>
+    </section><!-- Fim da Seção Inicial -->
+  </main>
+
+  <!-- Rodapé -->
+  <footer id="footer" class="footer light-background">
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">Medilab</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>A108 Adam Street</p>
+            <p>New York, NY 535022</p>
+            <p><strong>Phone:</strong> +1 5589 55488 55</p>
+            <p><strong>Email:</strong> info@example.com</p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+          </div>
+        </div>
+        <!-- Links úteis e outros detalhes são repetidos -->
+      </div>
+    </div>
+    <div class="container copyright text-center mt-4">
+      <p>© <strong>Medilab</strong> Todos os direitos reservados.</p>
+    </div>
+  </footer><!-- Fim do Rodapé -->
+
+  <!-- Botão de Voltar ao Topo -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Pré-carregador -->
+  <div id="preloader"></div>
+
+  <!-- Scripts de terceiros -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Script principal -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
